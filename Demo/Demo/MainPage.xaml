@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Demo"
+             x:Class="Demo.MainPage">
+    <StackLayout Margin="50,50,50,50">
+        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
+            <Label x:Name="CD" TextColor="Black" Text="Calendar Display" />
+            <Switch IsToggled="true" Toggled="OnToggled" />
+            <Label x:Name="RPM" Text="Rotary Planting Map" />
+        </FlexLayout>
+        <DatePicker  x:Name="DatePicker"  HorizontalOptions="Fill" DateSelected="OnDateSelected" />
+
+        <FlexLayout Direction="Row" x:Name="btn" JustifyContent="SpaceBetween"  Margin="10,30,10,30" AlignItems="Center">
+            <Button Text="Back" Clicked="OnBack" TextColor="White" BackgroundColor="#DD1A20" BorderRadius="10" />
+            <Button Text="Next" Clicked="OnNext" TextColor="White" BackgroundColor="#DD1A20" BorderRadius="10" />
+        </FlexLayout>
+        <Image x:Name="img" Margin="10,10,10,10" />
+    </StackLayout>
+</ContentPage>
