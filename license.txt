@@ -1,1 +1,16 @@
-http://pic.netbian.com/4kfengjing/
+http://pic.netbian.com/4kfengjing/ 
+
+
+###########Project structure description
+
+
+©À©¤©¤ Calendar.Android   // Android platform 
+
+©¦   ©¸©¤©¤ Resources.drawable // picture A1-A8
+
+©À©¤©¤ Calendar.IOS // IOS platform
+
+©À©¤©¤david // Main activity and UI design
+
+©¦   ©¸©¤©¤ MainPage.Xaml.cs  //UI and configuration file
+
