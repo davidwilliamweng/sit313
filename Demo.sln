@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Android", "Demo\Demo.Android\Demo.Android.csproj", "{6741FDA2-7C41-45D3-8050-BABFA78E7C2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Android", "Demo\Demo.Android\Calendar.Android.csproj", "{6741FDA2-7C41-45D3-8050-BABFA78E7C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.iOS", "Demo\Demo.iOS\Demo.iOS.csproj", "{F2A28C0A-C75A-4654-A62F-BFC708A8D3BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.iOS", "Demo\Demo.iOS\Calendar.iOS.csproj", "{F2A28C0A-C75A-4654-A62F-BFC708A8D3BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo\Demo.csproj", "{F80D580B-F83C-4A90-8FB0-442B6FF163E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "david", "Demo\Demo\david.csproj", "{F80D580B-F83C-4A90-8FB0-442B6FF163E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

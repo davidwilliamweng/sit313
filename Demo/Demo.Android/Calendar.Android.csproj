@@ -96,9 +96,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo\Demo.csproj">
-      <Project>{0A7AAC06-D166-46E0-A838-AA6F690A7D67}</Project>
-      <Name>Demo</Name>
+    <ProjectReference Include="..\Demo\david.csproj">
+      <Project>{F80D580B-F83C-4A90-8FB0-442B6FF163E4}</Project>
+      <Name>david</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
